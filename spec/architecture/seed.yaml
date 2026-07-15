@@ -5,9 +5,8 @@ target_platform: riscv64-qemu-virt
 language: c
 architecture_name: QYC-OS
 architecture_summary: >
-  基于 RISC-V 64 + QEMU virt 平台、以 C 语言实现的教学用宏内核，
-  目标是完整走通启动→内存→中断→进程→文件系统全流程，
-  优先保证设计清晰可理解，不追求性能或 POSIX 完整兼容。
+  选择 RISC-V 64 因为规范简洁易学，用 C 语言实现，
+  目标是从零走通启动到文件系统的完整流程，优先代码清晰。
 constraints:
   - "TODO: Lab 2 填入"
 goals:
