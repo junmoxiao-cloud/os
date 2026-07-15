@@ -1,0 +1,19 @@
+id: qiuyucheng-os-seed
+project: qiuyucheng-os
+domain: teaching-operating-system
+target_platform: riscv64-qemu-virt
+language: c
+architecture_name: QYC-OS
+architecture_summary: >
+  基于 RISC-V 64 + QEMU virt 平台、以 C 语言实现的教学用宏内核，
+  目标是完整走通启动→内存→中断→进程→文件系统全流程，
+  优先保证设计清晰可理解，不追求性能或 POSIX 完整兼容。
+constraints:
+  - "TODO: Lab 2 填入"
+goals:
+  - "TODO: Lab 5 填入"
+non_goals:
+  - "TODO: Lab 5 填入"
+reference_systems:
+initial_validation_binding:
+  - "TODO: Final Lab 汇总"
